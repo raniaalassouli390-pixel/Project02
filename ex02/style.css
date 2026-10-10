@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f1f5f9;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #3b82f6;
+}
+.rectangle {
+  width: 150px;
+  height: 90px;
+  background-color: #10b981;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #f59e0b;
+  border-radius: 50%;
+}
+.pill {
+  width: 140px;
+  height: 60px;
+  background-color: #8b5cf6;
+  border-radius: 50px;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #ec4899;
+}
